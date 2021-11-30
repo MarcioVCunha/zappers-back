@@ -9,16 +9,15 @@ const {
   DB_PASS,
   DB_PORT,
   DB_HOST,
-  DB_NAME,
-  DATABASE_URL
+  DB_NAME
 } = process.env;
 
 const databaseConfig = (NODE_ENV === 'production')
   ? {
-    connectionString: DATABASE_URL,
+    connectionString: process.env.DATABASE_URL,
     ssl: {
-      rejectUnautorized: false,
-    },
+      rejectUnauthorized: false
+    }
   }
   : {
     user: DB_USER,
