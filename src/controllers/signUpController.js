@@ -22,7 +22,6 @@ const singUp = async (req, res) => {
           ($1, $2);
       `, [req.body.username, hash]);
 
-
       res.sendStatus(200);
       return;
     }

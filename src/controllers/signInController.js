@@ -34,7 +34,7 @@ const signIn = async (req, res) => {
       return;
     }
 
-    res.sendStatus(409);
+    res.sendStatus(404);
     return;
   } catch (error) {
     console.log(error);
