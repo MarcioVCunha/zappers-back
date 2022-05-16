@@ -34,8 +34,12 @@ Now, you have to create a .env.test archive with your database informations, fol
 
 Finally, go to the front (link [here](https://github.com/MarcioVCunha/zappers-front)) and set it up.
 
-Just type the command 
+Just type the command to install the dependencies
+  
+    npm i
+    
+And run the server with
 
     npm start
 
-in the root of the back and it should be up and running.
+in the root of the back.
