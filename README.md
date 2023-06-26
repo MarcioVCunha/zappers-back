@@ -8,6 +8,8 @@ Welcome to zappers project, here I build the database and api for the zappers ap
 
 https://zappers-front.vercel.app/
 
+Unfortunately, heroku isn't working anymore, so the deploy of the backend crashed
+
 <h2>More in depth of the project</h2>
 
 The BackEnd part was pretty simple, it just save login and the massages that you send.
